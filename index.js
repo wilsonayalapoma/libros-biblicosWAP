@@ -11,7 +11,7 @@ let librosBiblicos = [
 ];
 //manejo de JSON
 app.use(express.json());
-//endpoint 1 obtener todos los librossssssssssss
+//endpoint 1 obtener todos los librossssssssssssdsdsdsd
 app.get('/libros', (req, res) => {
     res.json(librosBiblicos);
 });
